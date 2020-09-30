@@ -1,0 +1,1 @@
+python two_way_attn_baseline.py --dataset_name metz --dataset_file ../../data/metz_data/restructured_unique.csv --fold_num 5 --prot_desc_path ../../data/metz_data/prot_desc.csv --model_dir ./model_dir/metz --filter_threshold 1 --split warm --prot_profile ../../data/protein/proteins.profile --prot_vocab ../../data/protein/protein_words_dict.pkl --hparam_search

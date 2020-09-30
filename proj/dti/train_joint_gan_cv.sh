@@ -1,0 +1,1 @@
+python train_joint_gan.py --dataset_name davis --dataset_file ../../data/davis_data/restructured.csv --fold_num 5 --prot_desc_path ../../data/davis_data/prot_desc.csv --model_dir ./model_dir/davis --filter_threshold 6 --split warm --split cold_drug --split cold_target -mp

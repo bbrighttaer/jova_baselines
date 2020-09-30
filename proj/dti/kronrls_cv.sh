@@ -1,0 +1,1 @@
+python kronrls.py --dataset_name kiba --dataset_file ../../data/KIBA_data/restructured_unique.csv --prot_desc_path ../../data/KIBA_data/prot_desc.csv --model_dir ./model_dir/kiba --filter_threshold 6 --split warm --split cold_drug --split cold_target --comp_view ecfp8 --prot_view psc --fold_num 5 -mp

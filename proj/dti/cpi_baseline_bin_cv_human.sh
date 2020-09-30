@@ -1,0 +1,1 @@
+python cpi_baseline_bin.py --dataset_name human --dataset_file ../../data/human_data/human_data.csv --prot_desc_path ../../data/human_data/prot_desc.csv --model_dir ./model_dir/human --filter_threshold 0 --fold_num 5 --split random --view gnn --prot_profile ../../data/human_data/proteins.profile --prot_vocab ../../data/human_data/proteins.vocab --hparam_search

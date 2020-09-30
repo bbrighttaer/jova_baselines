@@ -1,0 +1,1 @@
+python train_joint_gan.py --dataset_name kiba --dataset_file ../../data/KIBA_data/restructured_unique.csv --fold_num 5 --prot_desc_path ../../data/KIBA_data/prot_desc.csv --model_dir ./model_dir/kiba --filter_threshold 6 --split cold_target --eval --eval_model_name metz_integrated_view_gan_ecfp8_gconv_psc_model-2019_12_21__20_23_05_cold_target_68_-0.2492.mod
