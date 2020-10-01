@@ -30,7 +30,7 @@ We assume that a Linux OS is in use.
 | [Soek](https://github.com/bbrighttaer/soek)                  | 0.0.1       |
 | [torch-scatter](https://github.com/rusty1s/pytorch_scatter)  | 2.0.5       |
 | [BioPython](https://biopython.org/wiki/Download)             | 1.76        |
-| [Scikit-Learn](https://scikit-learn.org/stable/install.html) | 0.7.4       |
+| [Scikit-Learn](https://scikit-learn.org/stable/install.html) | 0.23.1       |
 | [tqdm](https://github.com/tqdm/tqdm)                         | 4.35.0      |
 
 To install the dependencies, we suggest you install 
@@ -91,10 +91,16 @@ $ python build_prot_vocabs_cpi --prot_desc_path ../../data/human_data/prot_desc.
 ___
 
 # Usage
-First ensure you are in the `dti` directory.
+First ensure you are in the project directory and set it up with:
+```bash
+$ pip install -e .
+```
+
+Then `cd` into the `dti` directory of the project with:
 ```bash
 $ cd proj/dti/
 ```
+
 ## Regression
 - `simboost.py`
 
