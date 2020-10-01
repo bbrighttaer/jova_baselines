@@ -175,7 +175,7 @@ Thanks to [Yulkang](https://github.com/yulkang) for the work in
 [numpytorch.py](https://github.com/yulkang/pylabyk/blob/master/numpytorch.py).
 
 # Cite
-```tex
+```bibtex
 @article{Agyemang2020,
 archivePrefix = {arXiv},
 arxivId = {2005.00397},
