@@ -947,9 +947,6 @@ if __name__ == '__main__':
     parser.add_argument("--eval",
                         action="store_true",
                         help="If true, a saved model is loaded and evaluated using CV")
-    parser.add_argument("--explain",
-                        action="store_true",
-                        help="If true, a saved model is loaded and used in ranking segments to explain predictions")
     parser.add_argument("--eval_model_name",
                         default=None,
                         type=str,

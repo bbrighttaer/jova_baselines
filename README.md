@@ -91,6 +91,10 @@ $ python build_prot_vocabs_cpi --prot_desc_path ../../data/human_data/prot_desc.
 ___
 
 # Usage
+First ensure you are in the `dti` directory.
+```bash
+$ cd proj/dti/
+```
 ## Regression
 - `simboost.py`
 
@@ -139,6 +143,9 @@ ___
    [CPI_prediction](https://github.com/masashitsubaki/CPI_prediction).
    
    Sample run file: [cpi_baseline_bin_cv_human.sh](./proj/dti/cpi_baseline_bin_cv_human.sh)
+
+To evaluate a model you will need to specify the `--eval`, `--eval_model_name`, and `--model_dir` flags.
+Please see the command line arguments in each file for more on model evaluation.
 
 ## Others
 - `worker_jova.py`
