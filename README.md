@@ -1,6 +1,5 @@
 #  Overview
-This is the source codes of the baselines in [JOVA](https://pubmed.ncbi.nlm.nih.gov/32860883/) (without the proposed JOVA architecture 
-codes due to copyright reasons). In the project, the works used as baselines are:
+This is the source codes of the baselines in [JOVA](https://pubmed.ncbi.nlm.nih.gov/32860883/). The source code of the entire project can be found [here](https://github.com/bbrighttaer/jova). In the project, the works used as baselines are:
 - [SimBoost](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5395521/)
 - [KronRLS](https://academic.oup.com/bib/article/16/2/325/246479)
 - [IVPGAN](https://ieeexplore.ieee.org/document/9067510)
